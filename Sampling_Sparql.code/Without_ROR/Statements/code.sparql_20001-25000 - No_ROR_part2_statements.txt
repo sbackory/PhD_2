@@ -1,0 +1,216 @@
+SELECT ?university
+       ?instanceOf
+       ?inception
+       ?country
+       ?coordinateLocation
+       ?memberOf
+       ?officialWebsite
+       ?CommonsCategory
+       ?categoryForAlumni
+       ?image
+       ?hasSubsidiary
+       ?mainTopicCategory
+       ?categoryForEmployees
+       ?socialMediaFollowers
+       ?locatedInAdministrativeTerritory
+       ?studentsCount
+       ?languageUsed
+WHERE {
+  VALUES ?university {
+  wd:Q56841233
+wd:Q141120548
+wd:Q141195396
+wd:Q7380212
+wd:Q48733903
+wd:Q4673541
+wd:Q109912150
+wd:Q105626526
+wd:Q109912866
+wd:Q56847063
+wd:Q97233007
+wd:Q3579375
+wd:Q20447616
+wd:Q24927917
+wd:Q28172373
+wd:Q18126224
+wd:Q55394977
+wd:Q56840719
+wd:Q5839291
+wd:Q6936765
+wd:Q17125179
+wd:Q4901215
+wd:Q129343146
+wd:Q139032353
+wd:Q56846719
+wd:Q28163498
+wd:Q7589133
+wd:Q10876239
+wd:Q137456587
+wd:Q56753733
+wd:Q5012994
+wd:Q4671537
+wd:Q140876267
+wd:Q24944030
+wd:Q15727605
+wd:Q5304402
+wd:Q109913154
+wd:Q107477984
+wd:Q5766783
+wd:Q4849839
+wd:Q16057961
+wd:Q129343201
+wd:Q108819012
+wd:Q55886289
+wd:Q109911798
+wd:Q11111560
+wd:Q28225457
+wd:Q60767042
+wd:Q6908430
+wd:Q60744338
+wd:Q19881732
+wd:Q140965711
+wd:Q136564991
+wd:Q89533195
+wd:Q109911093
+wd:Q13054964
+wd:Q141195378
+wd:Q3803587
+wd:Q7515060
+wd:Q7285798
+wd:Q5303969
+wd:Q112677406
+wd:Q52637163
+wd:Q6944368
+wd:Q5071059
+wd:Q109912304
+wd:Q8061331
+wd:Q6156702
+wd:Q1377237
+wd:Q17151645
+wd:Q92389051
+wd:Q129342846
+wd:Q56844840
+wd:Q100720992
+wd:Q7339026
+wd:Q108731611
+wd:Q19899093
+wd:Q6973888
+wd:Q109913023
+wd:Q6479779
+wd:Q30257206
+wd:Q4806604
+wd:Q12600289
+wd:Q16847290
+wd:Q7360282
+wd:Q52635392
+wd:Q12471233
+wd:Q18349393
+wd:Q7590237
+wd:Q1531291
+wd:Q129343562
+wd:Q25474292
+wd:Q12513061
+wd:Q28223855
+wd:Q30263451
+wd:Q12376173
+wd:Q141193691
+wd:Q48731314
+wd:Q65074192
+wd:Q109913244
+wd:Q56649493
+wd:Q13112941
+wd:Q39049981
+wd:Q87421721
+wd:Q5588953
+wd:Q5588747
+wd:Q43371316
+wd:Q31134308
+wd:Q65056785
+wd:Q135398258
+wd:Q7687812
+wd:Q7593081
+wd:Q24908384
+wd:Q4901603
+wd:Q109911450
+wd:Q112661410
+wd:Q55697546
+wd:Q22079856
+wd:Q3578445
+wd:Q103018198
+wd:Q5295953
+wd:Q12416202
+wd:Q5396930
+wd:Q85783549
+wd:Q19457551
+wd:Q19747809
+wd:Q109442100
+wd:Q112676865
+wd:Q5917230
+wd:Q56349615
+wd:Q131447511
+wd:Q54871163
+wd:Q4806668
+wd:Q2775324
+wd:Q7288807
+wd:Q16256773
+wd:Q89533180
+wd:Q54810478
+wd:Q5146691
+wd:Q19744843
+wd:Q22080044
+wd:Q56846782
+wd:Q52637698
+wd:Q106525433
+wd:Q141195006
+wd:Q129343652
+wd:Q129342824
+wd:Q129342890
+wd:Q30280635
+wd:Q104851693
+wd:Q12690296
+wd:Q20944511
+wd:Q7461533
+wd:Q48732805
+wd:Q48731288
+wd:Q4997516
+wd:Q129343107
+wd:Q11109636
+wd:Q7248033
+wd:Q130553423
+wd:Q21040612
+wd:Q140964673
+wd:Q7811934
+wd:Q7391904
+wd:Q5403703
+wd:Q140870499
+wd:Q18109719
+wd:Q109913401
+wd:Q109919565
+wd:Q109912560
+wd:Q129343221
+wd:Q56272212
+wd:Q18379267
+wd:Q126108587
+ }
+
+  OPTIONAL { ?university wdt:P31 ?instanceOf. }
+  OPTIONAL { ?university wdt:P571 ?inception. }
+  OPTIONAL { ?university wdt:P17 ?country. }
+  OPTIONAL { ?university wdt:P625 ?coordinateLocation. }
+  OPTIONAL { ?university wdt:P463 ?memberOf. }
+  OPTIONAL { ?university wdt:P856 ?officialWebsite. }
+  OPTIONAL { ?university wdt:P373 ?CommonsCategory. }
+  OPTIONAL { ?university wdt:P3876 ?categoryForAlumni. }
+  OPTIONAL { ?university wdt:P18 ?image. }
+  OPTIONAL { ?university wdt:P361 ?hasSubsidiary. }
+  OPTIONAL { ?university wdt:P910 ?mainTopicCategory. }
+  OPTIONAL { ?university wdt:P4195 ?categoryForEmployees. }
+  OPTIONAL { ?university wdt:P8687 ?socialMediaFollowers. }
+  OPTIONAL { ?university wdt:P131 ?locatedInAdministrativeTerritory. }
+  OPTIONAL { ?university wdt:P2196 ?studentsCount. }
+  OPTIONAL { ?university wdt:P2936 ?languageUsed. }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en".
+  }
+}
