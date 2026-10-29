@@ -1,0 +1,131 @@
+SELECT ?university ?VIAF ?ISNI ?NLI ?LOC ?ROR ?IdRef ?ARWU ?Freebase ?GRID ?Microsoft ?OpenFunder ?QS ?Ringgold ?THE ?UMultirank ?BNF ?Quora ?GMaps ?GND ?NLCR ?SNARC ?Twitter ?GoogleScholar ?Facebook ?LibrariesAU ?Subreddit WHERE {
+  VALUES ?university {
+wd:Q392754
+wd:Q3656374
+wd:Q4702441
+wd:Q5474772
+wd:Q6378037
+wd:Q7058424
+wd:Q10870432
+wd:Q12204476
+wd:Q13072889
+wd:Q14957078
+wd:Q25377774
+wd:Q30293868
+wd:Q30294224
+wd:Q43147119
+wd:Q85784264
+wd:Q86678508
+wd:Q109358750
+wd:Q110554819
+wd:Q124411872
+wd:Q131293676
+wd:Q131875118
+wd:Q3551467
+wd:Q30294014
+wd:Q5917797
+wd:Q30293851
+wd:Q30293992
+wd:Q30293674
+wd:Q18566699
+wd:Q5142859
+wd:Q16912035
+wd:Q3551813
+wd:Q24236563
+wd:Q10387903
+wd:Q5295800
+wd:Q30294533
+wd:Q15622432
+wd:Q30294033
+wd:Q30254012
+wd:Q13072889
+wd:Q90004038
+wd:Q30591646
+wd:Q1690564
+wd:Q30293714
+wd:Q30293966
+wd:Q4874272
+wd:Q4315003
+wd:Q30293928
+wd:Q30293867
+wd:Q5474772
+wd:Q29128533
+wd:Q4466150
+wd:Q7895341
+wd:Q30293868
+wd:Q30293893
+wd:Q22948349
+wd:Q30294106
+wd:Q90130948
+wd:Q30294262
+wd:Q7896765
+wd:Q46996979
+wd:Q30293756
+wd:Q4465234
+wd:Q22079853
+wd:Q30293880
+wd:Q7692487
+wd:Q124617957
+wd:Q30293746
+wd:Q7238831
+wd:Q30293727
+wd:Q128955268
+wd:Q4146539
+wd:Q109922394
+wd:Q4810344
+wd:Q43147119
+wd:Q125522674
+wd:Q18712513
+wd:Q48798646
+wd:Q30293806
+wd:Q6156385
+wd:Q5841184
+wd:Q111931329
+wd:Q131765600
+wd:Q7401921
+wd:Q30293762
+wd:Q12523445
+wd:Q30257266
+wd:Q30293887
+wd:Q131428175
+wd:Q6365811
+wd:Q30253705
+wd:Q6480130
+wd:Q30293849
+wd:Q30293933
+wd:Q2724353
+wd:Q7692429
+wd:Q74500993
+wd:Q48725239
+wd:Q109911404
+wd:Q32166318
+wd:Q132803487
+ }
+  OPTIONAL { ?university wdt:P214 ?VIAF. }
+  OPTIONAL { ?university wdt:P213 ?ISNI. }
+  OPTIONAL { ?university wdt:P8189 ?NLI. }
+  OPTIONAL { ?university wdt:P244 ?LOC. }
+  OPTIONAL { ?university wdt:P6782 ?ROR. }
+  OPTIONAL { ?university wdt:P269 ?IdRef. }
+  OPTIONAL { ?university wdt:P5242 ?ARWU. }
+  OPTIONAL { ?university wdt:P646 ?Freebase. }
+  OPTIONAL { ?university wdt:P2427 ?GRID. }
+  OPTIONAL { ?university wdt:P6366 ?Microsoft. }
+  OPTIONAL { ?university wdt:P3153 ?OpenFunder. }
+  OPTIONAL { ?university wdt:P5584 ?QS. }
+  OPTIONAL { ?university wdt:P3500 ?Ringgold. }
+  OPTIONAL { ?university wdt:P5586 ?THE. }
+  OPTIONAL { ?university wdt:P5600 ?UMultirank. }
+  OPTIONAL { ?university wdt:P268 ?BNF. }
+  OPTIONAL { ?university wdt:P3417 ?Quora. }
+  OPTIONAL { ?university wdt:P3749 ?GMaps. }
+  OPTIONAL { ?university wdt:P227 ?GND. }
+  OPTIONAL { ?university wdt:P691 ?NLCR. }
+  OPTIONAL { ?university wdt:P12749 ?SNARC. }
+  OPTIONAL { ?university wdt:P2002 ?Twitter. }
+  OPTIONAL { ?university wdt:P11961 ?GoogleScholar. }
+  OPTIONAL { ?university wdt:P2013 ?Facebook. }
+  OPTIONAL { ?university wdt:P409 ?LibrariesAU. }
+  OPTIONAL { ?university wdt:P3984 ?Subreddit. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
