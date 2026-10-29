@@ -1,0 +1,3 @@
+Follow the link below to input a SPARQL query or choose a query example
+
+https://query.wikidata.org/
