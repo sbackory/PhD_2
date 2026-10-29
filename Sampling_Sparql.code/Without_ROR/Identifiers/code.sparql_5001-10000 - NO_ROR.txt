@@ -1,0 +1,83 @@
+SELECT ?university ?VIAF ?ISNI ?NLI ?LOC ?ROR ?IdRef ?ARWU ?Freebase ?GRID ?Microsoft ?OpenFunder ?QS ?Ringgold ?THE ?UMultirank ?BNF ?Quora ?GMaps ?GND ?NLCR ?SNARC ?Twitter ?GoogleScholar ?Facebook ?LibrariesAU ?Subreddit WHERE {
+  VALUES ?university {
+wd:Q118397745
+wd:Q129342932
+wd:Q22687010
+wd:Q109911535
+wd:Q19747817
+wd:Q679759
+wd:Q109913239
+wd:Q7783818
+wd:Q7829357
+wd:Q7456148
+wd:Q59822615
+wd:Q6662575
+wd:Q7586189
+wd:Q2822277
+wd:Q25450275
+wd:Q4857503
+wd:Q4897887
+wd:Q7276080
+wd:Q6728523
+wd:Q25529331
+wd:Q20026262
+wd:Q201438
+wd:Q5058833
+wd:Q54870504
+wd:Q6720430
+wd:Q22686998
+wd:Q5948959
+wd:Q12204540
+wd:Q42170247
+wd:Q5849303
+wd:Q7391905
+wd:Q4673527
+wd:Q14957035
+wd:Q5014777
+wd:Q110235875
+wd:Q6326776
+wd:Q4919825
+wd:Q5141504
+wd:Q7586243
+wd:Q5513788
+wd:Q7131167
+wd:Q7918222
+wd:Q17071424
+wd:Q48732924
+wd:Q5620394
+wd:Q28173944
+wd:Q7428151
+wd:Q16257923
+wd:Q6082651
+wd:Q273551
+wd:Q7285681
+wd:Q29025147
+}
+  OPTIONAL { ?university wdt:P214 ?VIAF. }
+  OPTIONAL { ?university wdt:P213 ?ISNI. }
+  OPTIONAL { ?university wdt:P8189 ?NLI. }
+  OPTIONAL { ?university wdt:P244 ?LOC. }
+  OPTIONAL { ?university wdt:P6782 ?ROR. }
+  OPTIONAL { ?university wdt:P269 ?IdRef. }
+  OPTIONAL { ?university wdt:P5242 ?ARWU. }
+  OPTIONAL { ?university wdt:P646 ?Freebase. }
+  OPTIONAL { ?university wdt:P2427 ?GRID. }
+  OPTIONAL { ?university wdt:P6366 ?Microsoft. }
+  OPTIONAL { ?university wdt:P3153 ?OpenFunder. }
+  OPTIONAL { ?university wdt:P5584 ?QS. }
+  OPTIONAL { ?university wdt:P3500 ?Ringgold. }
+  OPTIONAL { ?university wdt:P5586 ?THE. }
+  OPTIONAL { ?university wdt:P5600 ?UMultirank. }
+  OPTIONAL { ?university wdt:P268 ?BNF. }
+  OPTIONAL { ?university wdt:P3417 ?Quora. }
+  OPTIONAL { ?university wdt:P3749 ?GMaps. }
+  OPTIONAL { ?university wdt:P227 ?GND. }
+  OPTIONAL { ?university wdt:P691 ?NLCR. }
+  OPTIONAL { ?university wdt:P12749 ?SNARC. }
+  OPTIONAL { ?university wdt:P2002 ?Twitter. }
+  OPTIONAL { ?university wdt:P11961 ?GoogleScholar. }
+  OPTIONAL { ?university wdt:P2013 ?Facebook. }
+  OPTIONAL { ?university wdt:P409 ?LibrariesAU. }
+  OPTIONAL { ?university wdt:P3984 ?Subreddit. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}

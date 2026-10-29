@@ -1,0 +1,38 @@
+SELECT ?university ?VIAF ?ISNI ?NLI ?LOC ?ROR ?IdRef ?ARWU ?Freebase ?GRID ?Microsoft ?OpenFunder ?QS ?Ringgold ?THE ?UMultirank ?BNF ?Quora ?GMaps ?GND ?NLCR ?SNARC ?Twitter ?GoogleScholar ?Facebook ?LibrariesAU ?Subreddit WHERE {
+  VALUES ?university {
+wd:Q7161060
+wd:Q7494371
+wd:Q10882754
+wd:Q8061332
+wd:Q59050599
+wd:Q10829028
+wd:Q12486118
+}
+  OPTIONAL { ?university wdt:P214 ?VIAF. }
+  OPTIONAL { ?university wdt:P213 ?ISNI. }
+  OPTIONAL { ?university wdt:P8189 ?NLI. }
+  OPTIONAL { ?university wdt:P244 ?LOC. }
+  OPTIONAL { ?university wdt:P6782 ?ROR. }
+  OPTIONAL { ?university wdt:P269 ?IdRef. }
+  OPTIONAL { ?university wdt:P5242 ?ARWU. }
+  OPTIONAL { ?university wdt:P646 ?Freebase. }
+  OPTIONAL { ?university wdt:P2427 ?GRID. }
+  OPTIONAL { ?university wdt:P6366 ?Microsoft. }
+  OPTIONAL { ?university wdt:P3153 ?OpenFunder. }
+  OPTIONAL { ?university wdt:P5584 ?QS. }
+  OPTIONAL { ?university wdt:P3500 ?Ringgold. }
+  OPTIONAL { ?university wdt:P5586 ?THE. }
+  OPTIONAL { ?university wdt:P5600 ?UMultirank. }
+  OPTIONAL { ?university wdt:P268 ?BNF. }
+  OPTIONAL { ?university wdt:P3417 ?Quora. }
+  OPTIONAL { ?university wdt:P3749 ?GMaps. }
+  OPTIONAL { ?university wdt:P227 ?GND. }
+  OPTIONAL { ?university wdt:P691 ?NLCR. }
+  OPTIONAL { ?university wdt:P12749 ?SNARC. }
+  OPTIONAL { ?university wdt:P2002 ?Twitter. }
+  OPTIONAL { ?university wdt:P11961 ?GoogleScholar. }
+  OPTIONAL { ?university wdt:P2013 ?Facebook. }
+  OPTIONAL { ?university wdt:P409 ?LibrariesAU. }
+  OPTIONAL { ?university wdt:P3984 ?Subreddit. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
